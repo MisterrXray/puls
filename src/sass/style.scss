@@ -1,0 +1,16 @@
+@import "base/variables";
+@import "block/promo";
+@import "block/header.scss";
+@import "block/buttons";
+@import "block/advantages";
+@import url(https://fonts.googleapis.com/css?family=MuseoModerno:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+
+* {
+   font-family: 'MuseoModerno';
+}
+
+.container {
+   max-width: 950px;
+   margin: 0 auto;
+}
