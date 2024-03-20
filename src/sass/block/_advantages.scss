@@ -50,12 +50,18 @@
    }
 
    span {
-      color: #F00;
+
       font-family: MuseoModerno;
       font-size: 14px;
       font-style: normal;
       font-weight: 300;
       line-height: 18px;
-      text-decoration-line: underline;
+      text-decoration-line: none;
+
+      a {
+         color: red;
+
+      }
+
    }
 }
