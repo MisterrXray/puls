@@ -1,0 +1,14 @@
+.consultation {
+   min-height: 680px;
+   padding: 100px 0 100px 0;
+   background: url('../../img/bg2.svg') center (center/cover) no-repeat;
+
+   &__descr {
+      color: #FFF;
+      font-family: MuseoModerno;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 500;
+
+   }
+}
