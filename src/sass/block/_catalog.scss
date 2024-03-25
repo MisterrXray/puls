@@ -61,9 +61,16 @@
    }
 
    &__content {
-      display: flex;
-      justify-content: space-between;
+      display: none;
+      flex-wrap: wrap;
       margin-top: 60px;
+      justify-content: space-between;
+
+
+      &_active {
+         display: flex;
+      }
+
 
    }
 
@@ -71,8 +78,17 @@
       width: 303px;
       min-height: 442px;
       border: solid 2px #E8E8E8;
-      padding: 20px 20px 25px;
+      padding: 20px 20px 25px 20px;
       overflow: hidden;
+
+      margin-bottom: 20px;
+
+      img {
+         display: block;
+         margin: 0 auto;
+         max-width: 100%;
+         height: 220px;
+      }
 
       &__subtitle {
          text-align: center;
@@ -93,34 +109,31 @@
          font-weight: 300;
       }
 
-      img {
-         display: block;
-         margin: 0 auto;
-         max-width: 100%;
-         height: 220px;
-      }
+
 
       &__link {
          display: block;
          margin: 10px auto;
+         color: #C70101;
+         text-align: center;
+         font-size: 14px;
+
+         font-weight: 500;
+         line-height: 14px;
+         text-decoration-line: underline;
 
          &:hover {
             color: #C70101;
          }
 
-         color: #C70101;
-         text-align: center;
-         font-size: 14px;
-         
-         font-weight: 500;
-         line-height: 14px;
-         text-decoration-line: underline;
+
       }
 
       &__footer {
          display: flex;
          justify-content: space-between;
          margin-top: 20px;
+         align-items: center;
 
 
 
@@ -196,31 +209,30 @@
             margin-bottom: 20px;
 
             &:before {
+               content: '';
                position: absolute;
-               content: "";
                width: 5px;
                height: 5px;
-               background-color: #C70101;
+               background-color: $main-color;
                left: -14px;
-               top: 8px;
-
+               top: 7px;
             }
          }
-
       }
 
+
+
+
+
+
       &__back {
-         position: relative;
-         left: 38%;
-         bottom: -20px;
+         position: absolute;
+         left: 35%;
          color: #C70101;
-         font-family: MuseoModerno;
          font-size: 17px;
          font-style: normal;
          font-weight: 500;
-         
-         /* 100% */
-         text-decoration-line:none;
+         text-decoration-line: underline;
       }
 
 
