@@ -1,7 +1,7 @@
 <?php 
 
 $name = $_POST['name'];
-$phone = $_POST['tel'];
+$tel = $_POST['tel'];
 $email = $_POST['email'];
 
 require_once('phpmailer/PHPMailerAutoload.php');
@@ -13,13 +13,13 @@ $mail->CharSet = 'utf-8';
 $mail->isSMTP();                                      // Set mailer to use SMTP
 $mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
-$mail->Username = 'openserverbond@gmail.com';                 // Наш логин
-$mail->Password = 'mdfbqcqdyuwtcmdd';                           // Наш пароль от ящика
+$mail->Username = 'bondarew.illia@gmail.com';                 // Наш логин
+$mail->Password = 'qwypicihzusxvblg';                           // Наш пароль от ящика
 $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
-$mail->Port = 587;                                    // TCP port to connect to
+$mail->Port = 465;                                    // TCP port to connect to
  
-$mail->setFrom('openserverbond@gmail.com', 'Puls');   // От кого письмо 
-$mail->addAddress('');     // Add a recipient
+$mail->setFrom('bondarew.illia@gmail.com', 'Puls');   // От кого письмо 
+$mail->addAddress('bondarew.illia@gmail.com');     // Add a recipient
 //$mail->addAddress('ellen@example.com');               // Name is optional
 //$mail->addReplyTo('info@example.com', 'Information');
 //$mail->addCC('cc@example.com');
