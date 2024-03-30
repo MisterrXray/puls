@@ -1,0 +1,175 @@
+@media (max-width: 991px) {
+
+
+
+
+
+  .title {
+    &__left {
+      font-size: 15px;
+    }
+  }
+
+
+
+  .header {
+    &__logo {
+      img {
+        position: relative;
+        width: 150px;
+        left: 80px;
+      }
+    }
+  }
+
+  .promo {
+
+    &__wrapper {
+      .button {
+        &_main {
+          width: 140px;
+          font-size: 9px;
+        }
+      }
+
+      .promo {
+        &__link {
+          font-size: 15px;
+        }
+
+        &__header {
+          font-size: 30px;
+
+        }
+
+        &__subheader {
+          font-size: 15px;
+        }
+      }
+    }
+
+    .header {
+
+      &__phone {
+        position: relative;
+        font-size: 13px;
+        left: -80px;
+      }
+
+      .button {
+        &_first {
+          width: 120px;
+          font-size: 10px;
+          left: -70px;
+        }
+      }
+    }
+  }
+
+  .advantages {
+    .title {
+      font-size: 15px;
+    }
+
+  }
+
+  .consultation {
+
+    .title {
+      font-size: 20px;
+    }
+
+    #cons {
+
+      font-size: 15px;
+    }
+
+    .feed-form {
+      width: 150px;
+
+      input {
+        min-height: 30px;
+      }
+
+      .button {
+        &_submit {
+          height: 30px;
+          font-size: 10px;
+
+        }
+      }
+
+    }
+  }
+
+  .carousel {
+    .slick {
+      &-prev {
+        img {
+          display: none;
+        }
+      }
+    }
+
+    img {
+      width: 400px;
+
+    }
+
+    #inn {
+      position: relative;
+      left: 180px;
+    }
+
+
+
+  }
+
+  .catalog {
+    &-item {
+      margin: 0 5px 0 5px;
+    }
+
+    #content-767 {
+      justify-content: center;
+      
+    }
+    #catalog-h2 {
+      font-size: 15px;
+    }
+
+    &__tabs {
+      position: relative;
+      transform: translate(80%);
+      
+      width: 300px;
+
+      li {
+        font-size: 9px;
+
+      }
+
+    }
+  }
+  .feed {
+    
+    .title {
+      font-size: 15px;
+    }
+    &__item {
+      width: 550px;
+      transform: translate(30%)
+       
+      
+    
+
+  }
+}
+.footer {
+  #info {
+    width: 330px;
+  }
+}
+ 
+ 
+}

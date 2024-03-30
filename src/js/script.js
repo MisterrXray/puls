@@ -10,9 +10,9 @@ $(document).ready(function () {
       nextArrow: '<button type="button" class="slick-next"><img src="icons/right.png"</button>',
       responsive: [
          {
-            breakpoint: 992,   /*адаптация екрана*/
+            breakpoint: 991,   /*адаптация екрана*/
             settings: {
-               dots: true,
+               dots: false,
                arrows: false,
             }
          },]
