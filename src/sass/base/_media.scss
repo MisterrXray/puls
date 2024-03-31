@@ -82,6 +82,7 @@
     #cons {
 
       font-size: 15px;
+      color: white;
     }
 
     .feed-form {
@@ -132,8 +133,9 @@
 
     #content-767 {
       justify-content: center;
-      
+
     }
+
     #catalog-h2 {
       font-size: 15px;
     }
@@ -141,7 +143,7 @@
     &__tabs {
       position: relative;
       transform: translate(80%);
-      
+
       width: 300px;
 
       li {
@@ -151,25 +153,24 @@
 
     }
   }
+
   .feed {
-    
+
     .title {
       font-size: 15px;
     }
+
     &__item {
       width: 550px;
       transform: translate(30%)
-       
-      
-    
+    }
+  }
 
+  .footer {
+    #info {
+      width: 330px;
+    }
   }
-}
-.footer {
-  #info {
-    width: 330px;
-  }
-}
- 
- 
+
+
 }
