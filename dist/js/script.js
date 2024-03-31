@@ -14,6 +14,7 @@ $(document).ready(function () {
             settings: {
                dots: false,
                arrows: false,
+               with: 100,
             }
          },]
    });
