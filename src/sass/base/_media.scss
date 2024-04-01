@@ -320,3 +320,209 @@
 
   }
 }
+
+
+
+@media (max-width: 575px) {
+
+  .header {
+    &__logo {
+      img {
+        position: relative;
+        width: 100px;
+        left: 5px;
+      }
+    }
+
+  }
+
+
+  .promo {
+    .header {
+      &__official {
+        font-size: 8px;
+        position: relative;
+        left: -5px;
+        top: 5px;
+      }
+
+      span {
+        font-size: 10px;
+        width: 180px;
+      }
+
+      &__phone {
+        top: 5px;
+        position: relative;
+        font-size: 10px;
+        left: -20px;
+      }
+
+      .button {
+        &_first {
+          width: 100px;
+          height: 20px;
+          font-size: 8px;
+          left: -20px;
+        }
+      }
+
+
+
+    }
+
+    &__wrapper {
+      .button {
+        &_main {
+          width: 110px;
+          height: 20px;
+          font-size: 6px;
+        }
+      }
+
+      .promo {
+        &__icons {
+          width: 200px;
+          height: 70px;
+        }
+
+        &__link {
+          font-size: 8px;
+
+          a {
+            font-size: 8px;
+          }
+        }
+
+        &__header {
+          font-size: 13px;
+
+        }
+
+        &__subheader {
+          font-size: 8px;
+        }
+      }
+    }
+
+  }
+
+  .consultation {
+    .title {
+      font-size: 13px;
+    }
+  }
+
+
+  .catalog {
+    &__tabs {
+      position: relative;
+      transform: translate(45%);
+
+      width: 300px;
+
+      li {
+        font-size: 9px;
+
+      }
+
+    }
+  }
+
+
+  .footer {
+
+    #info {
+      width: 200px;
+      height: 170px;
+
+      #contact {
+        position: relative;
+        font-size: 9px;
+        top: -70px;
+        margin-bottom: 0;
+      }
+
+      address {
+        position: relative;
+        display: block;
+        top: -40px;
+        font-size: 12px;
+      }
+    }
+
+    #social {
+      position: relative;
+
+      top: -50px;
+      left: -2px;
+      border: none;
+      width: 100%;
+      height: 100%;
+
+
+
+    }
+
+
+
+
+  }
+
+  .carousel {
+    #inn {
+      width: 200px;
+
+      img {
+        width: 200px;
+      }
+    }
+  }
+
+  .catalog {
+    &__tabs {
+      position: relative;
+      transform: translate(20%);
+    }
+  }
+
+  .overlay {
+    #consultation {
+
+      .modal__subtitle {
+        font-size: 10px;
+      }
+
+      .modal__descr {
+        font-size: 10px;
+      }
+
+
+      width: 200px;
+      height: 250px;
+
+      input {
+        position: relative;
+        width: 150px;
+
+        font-size: 10px;
+        left: -15px;
+
+      }
+
+      .button {
+        position: relative;
+        width: 150px;
+        height: 20px;
+        font-size: 10px;
+        left: -17px;
+
+      }
+
+
+
+
+    }
+  }
+
+}
